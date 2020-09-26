@@ -1,67 +1,67 @@
 default:
   navigation:
-    - title: Women
-      subtitle: Categories
-      url: /t/women
+    - title: Парк №1
+      subtitle: Пощекотать нервы
+      url: /t/parki/park-1
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Аттракцион №1
+          :url: /t/parki/park-1/attraction-1
+        - :title: Аттракцион №2
+          :url: /t/parki/park-1/attraction-2
+        - :title: Аттракцион №3
+          :url: /t/parki/park-1/attraction-3
+        - :title: Аттракцион №4
+          :url: /t/parki/park-1/attraction-4
+        - :title: Аттракцион №5
+          :url: /t/parki/park-1/attraction-5
+        - :title: Аттракцион №6
+          :url: /t/parki/park-1/attraction-6
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+        - subtitle: Новые аттракционы
+          title: Осень 2020
+          url: /t/parki/park-1
           image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
+        - subtitle: Специальные предложения
+          title: Получи скидку до 30% 
+          url: /t/parki/park-1
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Men
-      subtitle: Categories
-      url: /t/men
+    - title: Парк №2
+      subtitle: Развлечения
+      url: /t/parki/park-2
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Аттракцион №1
+          :url: /t/parki/park-2/attraction-1
+        - :title: Аттракцион №2
+          :url: /t/parki/park-2/attraction-2
+        - :title: Аттракцион №3
+          :url: /t/parki/park-2/attraction-3
+        - :title: Аттракцион №4
+          :url: /t/parki/park-2/attraction-4
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+        - subtitle: Живые клоуны
+          title: Зима 2020-21
+          url: /t/parki/park-2
           image: 'meganav/promo_banner_left-second-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
+        - subtitle: Специальное предложение
+          title: Катание на верблюдах
+          url: /t/parki/park-2
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
-      subtitle: Categories
-      url: /t/sportswear
+    - title: Парк №3
+      subtitle: Экстрим
+      url: /t/parki/park-3
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Американские горки
+          :url: /t/parki/park-3/attraction-1
+        - :title: Бег в мешках
+          :url: /t/parki/park-3/attraction-2
+        - :title: Ходули
+          :url: /t/parki/park-3/attraction-3
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+        - subtitle: Родельбан
+          title: Осень-Зима 2020-21
+          url: /t/parki/park-3
           image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
+        - subtitle: Специальное предложение
+          title: Безумные скидки
+          url: /t/parki/park-3
           image: 'meganav/promo_banner_right-third-category.jpg'
