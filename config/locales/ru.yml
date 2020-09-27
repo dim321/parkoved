@@ -1473,3 +1473,5 @@ ru:
       streetstyle: "Яркие огни"
       summer_sale: "Доступные цены"
       up_to_60: "Бешеные скидки !"
+    product:
+      less_than: "<"

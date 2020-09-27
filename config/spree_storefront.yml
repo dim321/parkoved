@@ -13,7 +13,7 @@ default:
       promo_banners:
         - subtitle: Новые аттракционы
           title: Осень 2020
-          url: /t/ekstrim
+          url: /t/attractions/ekstrim
           image: 'meganav/parkoved_promo_banner_left-first-category.jpg'
         - subtitle: Специальные предложения
           title: Получи скидку до 30% 
