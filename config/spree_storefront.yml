@@ -2,60 +2,58 @@ default:
   navigation:
     - title: Экстрим
       subtitle: Пощекотать нервы
-      url: /t/extrim
+      url: /t/attractions/ekstrim
       items:
         - :title: Мертвая петля
-          :url: /t/extrim/super
-        - :title: 
-          :url: /t/parki/park-1/attraction-2
-        - :title: Аттракцион №3
-          :url: /t/parki/park-1/attraction-3
+          :url: /t/attractions/ekstrim/miertvaia-pietlia
+        - :title: Душа в пятки
+          :url: /t/attractions/ekstrim/dusha-v-piatki
+        - :title: Я Гагарин
+          :url: /t/attractions/ekstrim/ia-gagarin
       promo_banners:
         - subtitle: Новые аттракционы
           title: Осень 2020
-          url: /t/parki/park-1
+          url: /t/ekstrim
           image: 'meganav/parkoved_promo_banner_left-first-category.jpg'
         - subtitle: Специальные предложения
           title: Получи скидку до 30% 
-          url: /t/parki/park-1
+          url: /t/attractions/ekstrim
           image: 'meganav/parkoved_promo_banner_right-first-category.jpg'
     - title: Семейные
       subtitle: Развлечения
-      url: /t/parki/park-2
+      url: /t/attractions/family
       items:
-        - :title: Аттракцион №1
-          :url: /t/parki/park-2/attraction-1
-        - :title: Аттракцион №2
-          :url: /t/parki/park-2/attraction-2
-        - :title: Аттракцион №3
-          :url: /t/parki/park-2/attraction-3
-        - :title: Аттракцион №4
-          :url: /t/parki/park-2/attraction-4
+        - :title: Карусели
+          :url: /t/attractions/family/carousel
+        - :title: Колесо оборзения
+          :url: /t/attractions/view_wheel
+        - :title: Тиры
+          :url: /t/attractions/family/shooter
       promo_banners:
         - subtitle: Живые клоуны
           title: Зима 2020-21
-          url: /t/parki/park-2
+          url: /t/attractions/family
           image: 'meganav/parkoved_promo_banner_left-first-category.jpg'
         - subtitle: Специальное предложение
           title: Катание на верблюдах
-          url: /t/parki/park-2
+          url: /t/attractions/family
           image: 'meganav/parkoved_promo_banner_right-first-category.jpg'
     - title: Детские
       subtitle: Нашкодим !
-      url: /t/kids
+      url: /t/attractions/kids
       items:
-        - :title: Американские горки
-          :url: /t/parki/park-3/attraction-1
+        - :title: Заколдованный лес
+          :url: /t/attractions/kids/magic_wood
         - :title: Бег в мешках
-          :url: /t/parki/park-3/attraction-2
-        - :title: Ходули
-          :url: /t/parki/park-3/attraction-3
+          :url: /t/attractions/kids/bags_running
+        - :title: Морское царство
+          :url: /t/attractions/kids/sea_world
       promo_banners:
         - subtitle: Родельбан
           title: Осень-Зима 2020-21
-          url: /t/parki/park-3
+          url: /t/attractions/kids
           image: 'meganav/parkoved_promo_banner_left-first-category.jpg'
         - subtitle: Специальное предложение
           title: Безумные скидки
-          url: /t/parki/park-3
+          url: /t/attractions/kids
           image: 'meganav/parkoved_promo_banner_right-first-category.jpg'
