@@ -11,7 +11,7 @@
       <%= Spree.t('homepage.summer_collection') %>
     </div>
     <div>
-      <%= link_to Spree.t('homepage.shop_now'), spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
+      <%= link_to Spree.t('homepage.try_now'), spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
     </div>
   </div>
 </div>
@@ -25,10 +25,10 @@
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/parkoved_category_banner_upper.jpg') %>"
             data-srcset="<%= image_source_set('homepage/parkoved_category_banner_upper') %>"
-            alt="<%= Spree.t('homepage.men')%>" />
+            alt="<%= Spree.t('homepage.extrim')%>" />
 
           <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.men') %></h3>
+            <h3><%= Spree.t('homepage.extrim') %></h3>
           </div>
         <% end %>
       </div>
@@ -38,10 +38,10 @@
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/parkoved_category_banner_lower.jpg') %>"
             data-srcset="<%= image_source_set('homepage/parkoved_category_banner_lower') %>"
-            alt="<%= Spree.t('homepage.sportswear')%>" />
+            alt="<%= Spree.t('homepage.family')%>" />
 
           <div class="homepage-taxon-box-text" role="img" aria-label="<%= Spree.t('homepage.sportswear') %>">
-            <h3><%= Spree.t('homepage.sportswear') %></h3>
+            <h3><%= Spree.t('homepage.family') %></h3>
           </div>
         <% end %>
       </div>
@@ -55,10 +55,10 @@
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/parkoved_big_category_banner.jpg') %>"
             data-srcset="<%= image_source_set('homepage/parkoved_big_category_banner') %>"
-            alt="<%= Spree.t('homepage.women')%>" />
+            alt="<%= Spree.t('homepage.kids')%>" />
 
           <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.women') %></h3>
+            <h3><%= Spree.t('homepage.kids') %></h3>
           </div>
         <% end %>
       </div>
@@ -71,10 +71,10 @@
 
 <div class="homepage-fashion-trends-box mb-3">
   <div class="text-center">
-    <div class="homepage-fashion-trends-box-summer-text mb-1"><%= Spree.t('homepage.summer_2019') %></div>
-    <div class="homepage-fashion-trends-box-fashion-trends-text mb-2"><%= Spree.t('homepage.fashion_trends') %></div>
+    <div class="homepage-fashion-trends-box-summer-text mb-1"><%= Spree.t('homepage.autumn-2020') %></div>
+    <div class="homepage-fashion-trends-box-fashion-trends-text mb-2"><%= Spree.t('homepage.attractions_trends') %></div>
     <div class="homepage-fashion-trends-box-description-text text-center mb-3">
-      <%= Spree.t('homepage.fashion_trends_note') %>
+      <%= Spree.t('homepage.attractions_trends_note') %>
     </div>
     <%= link_to Spree.t('homepage.read_more'), spree.nested_taxons_path('trending'), class: 'btn px-5 spree-btn btn-outline-primary' %>
   </div>
@@ -91,11 +91,11 @@
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/parkoved_promo_banner_left.jpg') %>"
             data-srcset="<%= image_source_set('homepage/parkoved_promo_banner_left') %>"
-            alt="<%= Spree.t('homepage.new_collection')%>" />
+            alt="<%= Spree.t('homepage.new_machinery')%>" />
 
-          <div class="homepage-bottom-box-inner" role="img" aria-label="<%= Spree.t('homepage.new_collection') %>">
+          <div class="homepage-bottom-box-inner" role="img" aria-label="<%= Spree.t('homepage.new_machinery') %>">
             <div class="homepage-bottom-box-inner-small-text">
-              <%= Spree.t('homepage.new_collection') %>
+              <%= Spree.t('homepage.new_machinery') %>
             </div>
             <div class="homepage-bottom-box-inner-big-text">
               <%= Spree.t('homepage.streetstyle') %>

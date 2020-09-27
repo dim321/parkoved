@@ -1,31 +1,25 @@
 default:
   navigation:
-    - title: Парк №1
+    - title: Экстрим
       subtitle: Пощекотать нервы
-      url: /t/parki/park-1
+      url: /t/extrim
       items:
-        - :title: Аттракцион №1
-          :url: /t/parki/park-1/attraction-1
-        - :title: Аттракцион №2
+        - :title: Мертвая петля
+          :url: /t/extrim/super
+        - :title: 
           :url: /t/parki/park-1/attraction-2
         - :title: Аттракцион №3
           :url: /t/parki/park-1/attraction-3
-        - :title: Аттракцион №4
-          :url: /t/parki/park-1/attraction-4
-        - :title: Аттракцион №5
-          :url: /t/parki/park-1/attraction-5
-        - :title: Аттракцион №6
-          :url: /t/parki/park-1/attraction-6
       promo_banners:
         - subtitle: Новые аттракционы
           title: Осень 2020
           url: /t/parki/park-1
-          image: 'meganav/promo_banner_left-first-category.jpg'
+          image: 'meganav/parkoved_promo_banner_left-first-category.jpg'
         - subtitle: Специальные предложения
           title: Получи скидку до 30% 
           url: /t/parki/park-1
-          image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Парк №2
+          image: 'meganav/parkoved_promo_banner_right-first-category.jpg'
+    - title: Семейные
       subtitle: Развлечения
       url: /t/parki/park-2
       items:
@@ -41,14 +35,14 @@ default:
         - subtitle: Живые клоуны
           title: Зима 2020-21
           url: /t/parki/park-2
-          image: 'meganav/promo_banner_left-second-category.jpg'
+          image: 'meganav/parkoved_promo_banner_left-first-category.jpg'
         - subtitle: Специальное предложение
           title: Катание на верблюдах
           url: /t/parki/park-2
-          image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Парк №3
-      subtitle: Экстрим
-      url: /t/parki/park-3
+          image: 'meganav/parkoved_promo_banner_right-first-category.jpg'
+    - title: Детские
+      subtitle: Нашкодим !
+      url: /t/kids
       items:
         - :title: Американские горки
           :url: /t/parki/park-3/attraction-1
@@ -60,8 +54,8 @@ default:
         - subtitle: Родельбан
           title: Осень-Зима 2020-21
           url: /t/parki/park-3
-          image: 'meganav/promo_banner_left-third-category.jpg'
+          image: 'meganav/parkoved_promo_banner_left-first-category.jpg'
         - subtitle: Специальное предложение
           title: Безумные скидки
           url: /t/parki/park-3
-          image: 'meganav/promo_banner_right-third-category.jpg'
+          image: 'meganav/parkoved_promo_banner_right-first-category.jpg'
